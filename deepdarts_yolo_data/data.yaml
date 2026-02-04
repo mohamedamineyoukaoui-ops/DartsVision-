@@ -1,0 +1,11 @@
+names:
+  0: dart
+  1: cal_top
+  2: cal_right
+  3: cal_bottom
+  4: cal_left
+nc: 5
+path: .
+test: images/test
+train: images/train
+val: images/val

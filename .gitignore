@@ -1,0 +1,91 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# YOLO weights (keep small model)
+*.pt
+!yolov8n.pt
+output/
+output_yolov8/
+
+# Data (download separately)
+deepdarts/data/cropped_images/
+deepdarts_yolo_data/images/
+*.pkl
+*.pickle
+!deepdarts_yolo_data/data.yaml
+
+# Model Weights
+*.pth
+*.onnx
+*.engine
+*.trt
+
+# Logs
+*.log
+logs/
+tensorboard/
+wandb/
+mlruns/
+
+# Misc
+.DS_Store
+Thumbs.db
+*.pdf
+*.zip
+*.tar.gz
+*.rar
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Documentation
+docs/_build/
+site/
