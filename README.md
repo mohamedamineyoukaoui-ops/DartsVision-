@@ -1,6 +1,8 @@
-# 🎯 DartsVision
+# DartsVision
 
 <div align="center">
+
+<img src="runs/detect/output_yolov8/deepdarts_s_best/val_batch0_pred.jpg" alt="DartsVision Detection Example" width="500"/>
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)
@@ -14,19 +16,19 @@ Point a camera at your dartboard, and let AI figure out where the darts landed.
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
-- [Overview](#-overview)
-- [How It Works](#-how-it-works)
-- [Dataset Analysis](#-dataset-analysis)
-- [Model Training](#-model-training)
-- [Results](#-results)
-- [Installation & Usage](#-installation--usage)
-- [Acknowledgments](#-acknowledgments)
+- [Overview](#overview)
+- [How It Works](#how-it-works)
+- [Dataset Analysis](#dataset-analysis)
+- [Model Training](#model-training)
+- [Results](#results)
+- [Installation & Usage](#installation--usage)
+- [Acknowledgments](#acknowledgments)
 
 ---
 
-## 📋 Overview
+## Overview
 
 DartsVision is a deep learning-based system for **automatic dart scoring from single images**. Instead of expensive multi-camera setups, this system uses just one camera (even a smartphone) to detect where darts landed and calculate scores automatically.
 
@@ -46,7 +48,7 @@ A single-camera approach using YOLOv8 object detection that:
 
 ---
 
-## 🔧 How It Works
+## How It Works
 
 ### System Pipeline
 
@@ -103,7 +105,7 @@ Once darts are mapped to the dartboard plane, scoring uses **polar coordinates**
 
 ---
 
-## 📊 Dataset Analysis
+## Dataset Analysis
 
 The dataset contains **~16,000 dartboard images** with annotated dart positions and calibration points.
 
@@ -144,7 +146,7 @@ The 4 calibration points (top, right, bottom, left) are consistently positioned 
 
 ---
 
-## 🏋️ Model Training
+##  Model Training
 
 ### YOLOv8 Architecture
 
@@ -189,7 +191,7 @@ Example training batch showing dartboard images with ground truth annotations (b
 
 ---
 
-## 📈 Results
+## Results
 
 ### Performance Metrics
 
@@ -240,7 +242,7 @@ Distribution analysis of labels in the dataset showing:
 
 ---
 
-## 🚀 Installation & Usage
+##  Installation & Usage
 
 ### Prerequisites
 
@@ -307,7 +309,7 @@ python eda.py
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 DartsVision/
@@ -333,6 +335,6 @@ DartsVision/
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **William McNally and team** at University of Waterloo for the original [DeepDarts paper](https://arxiv.org/abs/2105.09880) and dataset. This project is inspired by their pioneering work on modeling keypoints as objects for automatic dart scoring.
