@@ -52,9 +52,9 @@ A single-camera approach using YOLOv8 object detection that:
 
 ```mermaid
 flowchart LR
-    A[📷 Input Image] --> B[🔍 YOLOv8 Detection]
-    B --> C[🎯 Homography Transform]
-    C --> D[🧮 Score Calculation]
+    A[Input Image] --> B[YOLOv8 Detection]
+    B --> C[Homography Transform]
+    C --> D[Score Calculation]
     
     B --> B1[Detect 5 classes:\ndart, cal_top,\ncal_right, cal_bottom,\ncal_left]
     C --> C1[Transform positions\nfrom image plane\nto dartboard plane]
