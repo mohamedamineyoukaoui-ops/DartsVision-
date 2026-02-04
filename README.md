@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="runs/detect/output_yolov8/deepdarts_s_best/val_batch0_pred.jpg" alt="DartsVision Detection Example" width="500"/>
+<img src="sample_dartboard.jpg" alt="Dartboard Example" width="400"/>
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)
