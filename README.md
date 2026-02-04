@@ -18,13 +18,13 @@ Point a camera at your dartboard, and let AI figure out where the darts landed.
 
 ## Table of Contents
 
-- [Overview](#overview)
-- [How It Works](#how-it-works)
-- [Dataset Analysis](#dataset-analysis)
-- [Model Training](#model-training)
-- [Results](#results)
-- [Installation & Usage](#installation--usage)
-- [Acknowledgments](#acknowledgments)
+- [Overview](#-overview)
+- [How It Works](#-how-it-works)
+- [Dataset Analysis](#-dataset-analysis)
+- [Model Training](#-model-training)
+- [Results](#-results)
+- [Installation & Usage](#-installation--usage)
+- [Acknowledgments](#-acknowledgments)
 
 ---
 
@@ -58,9 +58,9 @@ flowchart LR
     B --> C[Homography Transform]
     C --> D[Score Calculation]
     
-    B --> B1[Detect 5 classes:\ndart, cal_top,\ncal_right, cal_bottom,\ncal_left]
-    C --> C1[Transform positions\nfrom image plane\nto dartboard plane]
-    D --> D1[Use polar coords\nto classify into\nscoring regions]
+    B --> B1[Detect 5 classes:<br>dart, cal_top,<br>cal_right, cal_bottom,<br>cal_left]
+    C --> C1[Transform positions<br>from image plane<br>to dartboard plane]
+    D --> D1[Use polar coords<br>to classify into<br>scoring regions]
 ```
 
 ### Detection Classes
@@ -309,7 +309,7 @@ python eda.py
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 DartsVision/
@@ -335,6 +335,6 @@ DartsVision/
 
 ---
 
-## Acknowledgments
+## 🙏 Acknowledgments
 
 - **William McNally and team** at University of Waterloo for the original [DeepDarts paper](https://arxiv.org/abs/2105.09880) and dataset. This project is inspired by their pioneering work on modeling keypoints as objects for automatic dart scoring.
