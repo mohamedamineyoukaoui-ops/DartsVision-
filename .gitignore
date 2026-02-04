@@ -49,7 +49,6 @@ venv.bak/
 *.pt
 !yolov8n.pt
 output/
-output_yolov8/
 
 # Data (download separately)
 deepdarts/data/cropped_images/
